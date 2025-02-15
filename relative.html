@@ -2,8 +2,44 @@
 <html lang="en">
 <head>
     <title>Relative Position</title>
+    <style>
+         div{
+        height: 200px;
+        width: 200px;
+        border: solid 1px black;
+        border-radius: 5px;
+        margin: 10px;
+        display: flex;
+        padding-left: 60px;
+        align-items: center;
+       
+       }
+
+       .ref-box{
+        font-size: 25px;
+        background-color: #99ffeb;
+       }
+
+       .stat-box{
+        font-size: 25px;
+        background-color: #ff99ff;
+        position: relative;
+        top: 70px;
+        left: 100px;
+       }
+
+      h1{
+        margin: 20px;
+      }
+    </style>
 </head>
 <body>
     <h1>Relative Postotion</h1>
+    
+    <div class="ref-box">
+        This is reference
+    </div>
+    <div class="stat-box">This is Relative position</div>
+
 </body>
 </html>
