@@ -3,23 +3,38 @@
 <head>
     <title>Absolute Position</title>
     <style>
+        
         .container{
             height: 440px;
             width: 350px;
             border: 1px solid black;
+            position: relative;
+            top: 80px;
             margin-left: 500px;
-            margin-top: 80px;
+            border-radius: 10px;
         }
 
         .image{
             height: 200px;
+            position: absolute;
+            left: 70px;
+            top: -70px;
+
         }
+
+       h1{
+        margin-top: 130px;
+        margin-left: 60px;
+       
+       }
     </style>
 
 </head>
 <body>
     <div class="container">
         <img src="https://img.freepik.com/premium-vector/avatar-portrait-young-caucasian-woman-round-frame-vector-cartoon-flat-illustration_551425-22.jpg" alt="women template" class="image">
+        <h1>Lucille Roberts</h1>
+        <p> Lucille Roberts is a women’s fitness chain founded by Lucille Roberts. The company focuses on offering women-only gyms and fitness programs, with an emphasis on empowering women through physical fitness and wellness.</p>
     </div>
 </body>
 </html>
