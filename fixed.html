@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fixed Position</title>
+    <style>
+        body{
+            background-color: #eeccff;
+        }
+
+      .container{
+        height: 350px;
+        width: 350px;
+        border: solid black 1px;
+        padding:10px;
+        margin-left: 450px;
+       text-align: center;
+       padding-top: 25px;
+       border-radius: 10px;
+       background-color: white;
+      }  
+
+      label{
+        font-size: 30px;
+       
+      }
+
+      input{
+        font-size: 15px;
+        width: 300px;
+        border-radius: 10px;
+        height: 30;
+      }
+
+      h1{
+        margin-left: 550px;
+      }
+
+      button{
+        font-size: 20px;
+        border-radius: 20px;
+        padding: 5px 20px;
+      }
+
+      #btn{
+        position: fixed;
+        left:1100px;
+        top: 40px;
+        color: #b30000;
+        background-color: #ff4d4d;
+        border: none;
+      }
+    </style>
+</head>
+<body>
+    <button id="btn">sign up</button>
+    <h1>Login Form</h1>
+    
+    <div class="container">
+        <form action="">
+            <label for="name">Name</label>
+            <br> <br>
+            <input type="text" name="name" placeholder="Enter your full name" >
+            <br> <br> <br>
+            <label for="password">Password</label>
+            <br> <br>
+            <input type="password" name="password" placeholder="Enter your password">
+            <br> <br> <br>
+           <button>Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
